@@ -13,6 +13,14 @@
 
 </div>
 
+<br>
+<p align="center">
+  <img src="./fr.png" alt="AI Research Agent Frontend Dashboard" width="800" style="border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,0.5);"/>
+</p>
+<p align="center">
+  <em>The modern dark-themed dashboard built with Angular 17+ displaying real-time metrics, AI trend analysis, and recent scraped posts.</em>
+</p>
+
 ---
 
 ## 📖 Overview
@@ -36,6 +44,13 @@ AI Research Agent is an intelligent web platform that automatically gathers data
 ## 🏗️ Architecture
 
 The project follows a standard decoupled two-tier architecture:
+
+<p align="center">
+  <img src="./ArchDiag.png" alt="Architecture Diagram" width="700"/>
+</p>
+<p align="center">
+  <em>High-level system architecture showing the flow from data sources (Reddit, HackerNews) through the Spring Boot scraping/AI synthesis layer, stored in PostgreSQL, and served to the Angular Single Page Application.</em>
+</p>
 
 ### 1. `backend/` (Spring Boot)
 - Exposes RESTful endpoints for the frontend.
