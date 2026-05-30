@@ -1,0 +1,5 @@
+export enum Platform {
+  REDDIT = 'REDDIT',
+  HACKERNEWS = 'HACKERNEWS',
+  PRODUCTHUNT = 'PRODUCTHUNT'
+}
